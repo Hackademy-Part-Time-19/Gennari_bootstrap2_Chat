@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sometype+Mono:ital,wght@1,500&display=swap');
+
+html,body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #EBF3E8;
+}
+
+.porzionecentrale {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.displayNavScrollbar {
+
+    display: flex;
+    width: 66vw;
+}
+
+.displaynavbarChat {
+
+    display: flex;
+    flex: 1.5;
+    height: 85vh;
+    border-top-left-radius: 30px;
+    flex-direction: column;
+}
+
+.navbarChat {
+
+    display: flex;
+    flex: 0.7;
+    background-color: #86A789;
+    border-top-left-radius: 30px;
+    border: solid 2px #B2C8BA;
+}
+
+.Messaggi {
+    
+    width: 25vh;
+    font-size: 22px;
+    color: white;
+    font-family: 'Sometype Mono', monospace;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    
+}
+
+.buttonProvami {
+
+    margin-top:8px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    color: black;border-radius: 40px;
+    height: 25px;border: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(131, 92, 92, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition-duration: 0.4s;
+}
+
+.buttonProvami:hover {
+
+     cursor: pointer;
+     background-color: cadetblue;
+     
+    
+}
+
+.scrollBarChat {
+
+    flex: 6;
+    overflow-y: scroll;
+
+}
+
+.chatPerson {
+
+    display: flex;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    border: solid 2px rgb(212, 213, 213) ;
+    transition-duration: 0.4s;
+
+}
+
+.chatPerson:hover {
+
+    cursor: pointer;
+    background-color: cadetblue;
+ 
+}
+
+.imagePerson {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+     
+}
+
+.namePerson {
+
+    margin-top: 10px;
+    width: 33vh;
+    font-weight: 700;
+    font-size: 12px; 
+    color: black;
+
+}
+
+.textChat {
+
+    width: 33vh;
+    height: 38px;
+    font-size: 10px; 
+    color: black;
+   
+}
+
+.orarioChat {
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    width: 10vh;
+    
+}
+
+.porzioneChatAperta {
+
+    display: flex;
+    flex: 2;
+    background-color: rgb(134, 167, 137);
+    height: 85vh;
+    border-top-right-radius: 30px;
+    flex-direction: column;
+
+}
+
+.NavBarchatAperta {
+
+    display: flex;
+    flex: 0.6;
+    border: solid 2px rgb(178, 200, 186);
+    border-top-right-radius: 30px;
+
+}
+
+.displayNomestato {
+
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+
+}
+
+.displayNome {
+
+    flex: 1;
+}
+
+.nome {
+
+    margin: 0px;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 15px;
+    color: #EBF3E8;
+
+}
+
+.displayStato {
+
+    flex: 1;
+}
+
+.stato {
+
+    margin: 0px;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 22px;
+    color: #EBF3E8;
+
+}
+
+.displayIcona {
+
+    flex: 1;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.porzioneMessaggio {
+
+    flex: 4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(178, 200, 186);
+}
+
+.displeyPorzioneMessaggio {
+
+    flex: 1;
+    display: flex;
+
+}
+
+.displayImage {
+
+    flex: 1;
+
+}
+
+.imageChat {
+
+    width: 15vh;
+    border-radius: 100%;
+    margin: 10px;
+    border: solid 2px rgb(70, 185, 252);
+}
+
+.displayNomeChat {
+
+    flex: 5;
+    display: flex;
+    align-items: center;
+
+}
+
+.nomeOrario {
+
+    font-size: 12px;
+
+}
+
+.displayTesto {
+
+    flex: 5;
+
+}
+
+.testo {
+
+    margin-left: 90px; 
+    margin-right: 50px;
+
+}
+
+.displayScrivi {
+
+    flex: 3;
+    background-color: white;
+    display: flex;
+    border: solid 2px rgb(178, 200, 186);
+
+}
+
+.scriviilmessaggio {
+
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.displayIcone {
+
+    flex: 2;
+    background-color: white;
+    border: solid 2px rgb(178, 200, 186);
+    
+}
